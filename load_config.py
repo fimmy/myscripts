@@ -1,8 +1,8 @@
 from genericpath import exists
-import tomli
+import tomli, os
 
 conf = {}
-
+config = {}
 try:
     confpath = "/data/fimmy_data/conf.toml"
 except:
